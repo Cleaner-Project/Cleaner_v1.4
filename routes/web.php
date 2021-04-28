@@ -14,27 +14,37 @@ use App\Http\Controllers\AdminContorller;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::group(['web'], function(){
+    Route::get('/', function () {
+        return view('p-welcome');
+    });   
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Route::get('/admin',[App\Http\Controllers\AdminContorller::class,'admin']);
 
-
-
-Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
+Route::group(['prefix'=>'admin','middleware'=>'auth','admin'],function(){
      Route::get('/',[App\Http\Controllers\AdminController::class,'admin'])->name('admin');
-    //  Route::resource('admin','AdminContorller');
+   
  });
 
+ Route::group(['prefix'=>'cleaner','middleware'=>'auth','cleaner','cleaner'],function(){
+    Route::get('/',[App\Http\Controllers\CleanerController::class,'cleaner'])->name('cleaner');
+  
+});
 
+Route::group(['prefix'=>'user','middleware'=>'auth','admin','user'],function(){
+    Route::get('/',[App\Http\Controllers\UserController::class,'user'])->name('user');
+  
+});
+
+Route::post('/forms/contact', [App\Http\Controllers\FormController::class ,'contactSumit'])->name('home.contact_submit');
 
 // Route::get('/admin', [ 'as' => 'admin','middleware'=>'auth', 'uses' => 'AdminController@admin'])->name('admin');
 
 // Route::get('/', function () {
 //     return view('dashboard');
 // });
+
+});
+Auth::routes();

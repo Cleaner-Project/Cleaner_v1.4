@@ -137,7 +137,12 @@
                 <a class="dropdown-item fw-bold" href="#"><span class="fas fa-envelope-open-text"></span>Messages</a>
                 <a class="dropdown-item fw-bold" href="#"><span class="fas fa-user-shield"></span>Support</a>
                 <div role="separator" class="dropdown-divider my-0"></div>
-                <a class="dropdown-item rounded-bottom fw-bold" href="#"><span class="fas fa-sign-out-alt text-danger"></span>Logout</a>
+                <a class="dropdown-item rounded-bottom fw-bold" href="{{ route('logout') }}"onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">                                                   
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                <span class="fas fa-sign-out-alt text-danger"></span>Logout</a>                 
             </div>
           </li>
         </ul>

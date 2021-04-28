@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     public function index(Request $request)
     {
-        // return view('home');
+        //  return view('home');
         return redirect()->route(auth()->user()->role);
 
         // // It check Auth and then go to user table, check the role of that account is admin or not 

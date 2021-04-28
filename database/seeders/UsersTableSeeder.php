@@ -35,11 +35,11 @@ class UsersTableSeeder extends Seeder
         ],
 //          Customer
           [
-            'full_name'=>'Sorya Customer',
-            'username'=>'Customer',
-            'email'=>'Customer@gmail.com',
+            'full_name'=>'Sorya User',
+            'username'=>'User',
+            'email'=>'user@gmail.com',
             'password'=>Hash::make('1111'),
-            'role'=>'customer',
+            'role'=>'user',
             'status'=>'active'
         ],
 //          Cleaner
