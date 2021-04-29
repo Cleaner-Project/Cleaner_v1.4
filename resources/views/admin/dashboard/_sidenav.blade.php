@@ -20,7 +20,7 @@
     </div>
     <ul class="nav flex-column pt-3 pt-md-0">
       <li class="nav-item">
-        <a href="../../index.html" class="nav-link d-flex align-items-center">
+        <a  class="nav-link d-flex align-items-center">
           <span class="sidebar-icon">
             <img src="asset-admin/assets/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
           </span>
@@ -28,32 +28,29 @@
         </a>
       </li>
       <li class="nav-item  active ">
-        <a href="admin/pages/dashboard/dashboard" class="nav-link">
+        <a href="{{route('admin')}}"class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
           <span class="sidebar-text">Dashboard</span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="https://demo.themesberg.com/volt-pro/pages/kanban.html" target="_blank" class="nav-link d-flex justify-content-between">
-          <span>
-            <span class="sidebar-icon"><span class="fas fa-th"></span></span>
-            <span class="sidebar-text">Kanban </span>
-          </span>
-          <span>
-            <span class="badge badge-md bg-secondary ms-1 text-dark">Pro</span>
-          </span>
-        </a>
       </li>
       <li class="nav-item ">
-        <a href="admin/pages/transactions" class="nav-link">
+        <a href="{{route('admin-booking')}}" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-hand-holding-usd"></span></span>
-          <span class="sidebar-text">Transactions</span>
+          <span class="sidebar-text">Booking</span>
         </a>
       </li>
       <li class="nav-item ">
-        <a href="admin/pages/settings" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-cog"></span></span>
-          <span class="sidebar-text">Settings</span>
+      <a href="{{route('list-user')}}" class="nav-link"> 
+          <span class="sidebar-icon"><span class="fas fa-user"></span></span>
+          <span class="sidebar-text">UserList</span>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a href="{{route('create-cleaner')}}" class="nav-link">
+          <span class="sidebar-icon"><span class="fas fa-user-plus"></span></span>
+          <span class="sidebar-text">Create Cleaner</span>
         </a>
       </li>
       <li class="nav-item">
@@ -134,7 +131,7 @@
           data-bs-toggle="collapse" data-bs-target="#submenu-components">
           <span>
             <span class="sidebar-icon"><span class="fas fa-box-open"></span></span>
-            <span class="sidebar-text">Components</span>
+            <span class="sidebar-text">Settings</span>
           </span>
           <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
         </span>
@@ -176,26 +173,12 @@
         </div>
       </li>
       <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
+      
+      
       <li class="nav-item">
-        <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/" target="_blank"
-          class="nav-link d-flex align-items-center">
-          <span class="sidebar-icon"><span class="fas fa-book"></span></span>
-          <span class="sidebar-text">Documentation <span
-              class="badge badge-md bg-secondary ms-1 text-dark">v1.3</span></span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="https://themesberg.com" target="_blank" class="nav-link d-flex align-items-center">
-          <span class="sidebar-icon">
-            <img src="asset-admin/assets/img/themesberg.svg" height="20" width="20" alt="Themesberg Logo">
-          </span>
-          <span class="sidebar-text">Themesberg</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="../../pages/upgrade-to-pro.html"
+        <a href="{{route('home')}}"
           class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
-          <span class="sidebar-icon"><span class="fas fa-rocket me-2"></span></span> <span>Upgrade to Pro</span>
+          <span class="sidebar-icon"><span class="fas fa-home me-2"></span></span> <span>Home</span>
         </a>
       </li>
     </ul>

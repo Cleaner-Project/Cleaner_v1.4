@@ -17,7 +17,7 @@
         <main class="content">
         @include('admin/dashboard/_topbar')
 
-        @include('admin/dashboard/_body')
+        @include('admin/pages/dash_home')
            
         @include('admin/dashboard/_footer')
         </main>

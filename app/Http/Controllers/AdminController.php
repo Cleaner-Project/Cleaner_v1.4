@@ -15,4 +15,25 @@ class AdminController extends Controller
        return view('admin/dashboard_layout');
       
     }
+
+    public function listuser()
+    {
+      return View('admin/pages/list-user');
+    }
+
+    public function booking()
+    {
+      return View('admin/pages/admin-booking');
+    }
+
+    public function create_cleaner()
+    {
+      return View('admin/pages/create-cleaner');
+    }
+
+
+
+
+
 }
+

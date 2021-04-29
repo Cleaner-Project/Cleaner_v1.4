@@ -6,9 +6,10 @@ use Illuminate\Http\Request;
 
 class CleanerController extends Controller
 {
-    public function admin(){
+    public function cleaner(){
        
-          return view('cleaner/cleaner_layout');
+         // return view('cleaner/cleaner_layout');
+           return view('cleaner/cleaner_layout');
         
       }
 }

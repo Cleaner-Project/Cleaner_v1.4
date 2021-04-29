@@ -1,4 +1,4 @@
-	<!-- [ Sidebar menu ] start -->
+
 	<nav class="pcoded-navbar menu-light ">
 		<div class="navbar-wrapper  ">
 			<div class="navbar-content scroll-div " >
@@ -52,4 +52,3 @@
 			</div>
 		</div>
 	</nav>
-	<!-- [ navigation menu ] end -->

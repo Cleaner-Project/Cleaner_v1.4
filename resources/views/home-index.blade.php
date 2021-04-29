@@ -32,16 +32,16 @@
 <body>
 
  
-  @include('menu.navbar')
+  @include('home-layout.navbar')
 
-  @include('welcome-home.hero-section')
+  @include('home-layout.hero-section')
 
   <main id="main">
 
     
-    @include('welcome-home.service')
-    @include('welcome-home.about')
-    @include('welcome-home.contact-form')
+    @include('home-layout.service')
+    @include('home-layout.about')
+    @include('home-layout.contact-form')
   
    
   </main>

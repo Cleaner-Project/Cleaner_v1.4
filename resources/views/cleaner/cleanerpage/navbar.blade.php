@@ -1,4 +1,4 @@
-<!-- [ Navbar ] start -->
+
 <header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
 		
 			
@@ -120,4 +120,3 @@
   
 
 </header>
-<!-- [ Header ] end -->
