@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head> 
+<title>Admin-Cleaner</title>       
  @include('admin/dashboard/_head')
 </head>
 
