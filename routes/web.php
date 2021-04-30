@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\AdminContorller;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,9 +45,12 @@ Route::group(['prefix'=>'user','middleware'=>['auth','user']],function(){
   
 });
 
-Route::post('/forms/contact', [App\Http\Controllers\FormController::class ,'contactSumit'])->name('home.contact_submit');
+Route::post('/forms/contact', [App\Http\Controllers\ContactControllor::class ,'contactSumit'])->name('home.contact_submit');
 Route::get('ThanksYou',[App\Http\Controllers\ThanksController::class,'contactThanks'])->name('contact.thanks_you');
 Route::get('cleanerPage/work',[App\Http\Controllers\CleanerPageController::class,'CleanWork'])->name('clneaer.clean_work');
 
+Route::get('Booking',[App\Http\Controllers\UserController::class,'booking'])->name('user.booking');
+
 });
+
 Auth::routes();
