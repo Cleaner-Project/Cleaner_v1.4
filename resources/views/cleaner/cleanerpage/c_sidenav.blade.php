@@ -24,42 +24,43 @@
           <span class="sidebar-icon">
             <img src="asset-admin/assets/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
           </span>
-          <span class="mt-1 ms-1 sidebar-text">Admin Cleaner</span>
+          <span class="mt-1 ms-1 sidebar-text">Cleaner-Account</span>
         </a>
       </li>
       <li class="nav-item  active ">
-        <a href="{{route('admin')}}"class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
-          <span class="sidebar-text">Dashboard</span>
+        <a href=""class="nav-link">
+          <span class="sidebar-icon"><span class="fas fa-cart-arrow-down"></span></span>
+          <span class="sidebar-text">New Booking</span>
         </a>
       </li>
       <li class="nav-item">
       </li>
       <li class="nav-item ">
-        <a href="{{route('admin-booking')}}" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-hand-holding-usd"></span></span>
-          <span class="sidebar-text">Booking</span>
+        <a href="" class="nav-link">
+          <span class="sidebar-icon"><span class="fas fa-suitcase"></span></span>
+          <span class="sidebar-text">Your Work</span>
         </a>
       </li>
       <li class="nav-item ">
-      <a href="{{route('list-user')}}" class="nav-link"> 
+      <a href="" class="nav-link"> 
+          <span class="sidebar-icon"><span class="fas fa-history"></span></span>
+          <span class="sidebar-text">History</span>
+        </a>
+      </li>
+      <li class="nav-item ">
+      <a href="" class="nav-link"> 
           <span class="sidebar-icon"><span class="fas fa-user"></span></span>
-          <span class="sidebar-text">UserList</span>
+          <span class="sidebar-text">MY Profile</span>
         </a>
       </li>
-      <li class="nav-item ">
-        <a href="{{route('create-cleaner')}}" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-user-plus"></span></span>
-          <span class="sidebar-text">Create Cleaner</span>
-        </a>
-      </li>
-     
+    
+    
       <li class="nav-item">
         <span
           class="nav-link  collapsed  d-flex justify-content-between align-items-center"
           data-bs-toggle="collapse" data-bs-target="#submenu-components">
           <span>
-            <span class="sidebar-icon"><span class="fas fa-box-open"></span></span>
+            <span class="sidebar-icon"><span class="fas fa-cog"></span></span>
             <span class="sidebar-text">Settings</span>
           </span>
           <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
@@ -69,7 +70,7 @@
           <ul class="flex-column nav">
             <li class="nav-item">
               <a class="nav-link" target="_blank"
-                href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/components/accordions/">
+                href="">
                 <span class="sidebar-text">All Components</span>
               </a>
             </li>
@@ -105,7 +106,7 @@
       
       
       <li class="nav-item">
-        <a href="{{route('home')}}"
+        <a href=""
           class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
           <span class="sidebar-icon"><span class="fas fa-home me-2"></span></span> <span>Home</span>
         </a>
