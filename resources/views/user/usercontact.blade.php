@@ -1,4 +1,4 @@
-
+<!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
     <div class="container">
 
@@ -49,7 +49,9 @@
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required >{{old('message')}}</textarea>
             </div>
             <div class="my-3">
-      
+              {{-- <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div> --}}
             </div>
             <div class="text"><button type="submit">Send Message</button></div>
           </form>
@@ -59,4 +61,4 @@
       </div>
 
     </div>
-  </section>
+  </section><!-- End Contact Section -->
