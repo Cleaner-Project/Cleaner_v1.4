@@ -6,7 +6,7 @@
       <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div data-aos="zoom-out">
           <h1>Find your own Cleaner <span> CLEANER -</span></h1>
-          <h2>We are a Website for Cleaner Bookink</h2>
+          <h2>We are a Website for Cleaner Booking</h2>
           <div class="text-center text-lg-start">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>

@@ -16,7 +16,7 @@ class Cleaner
      */
     public function handle(Request $request, Closure $next)
     {
-        if(auth()->user()->role=='cleaner'){
+        if(Auth()->user()->role=='cleaner'){
             return $next($request);
         }
         else{
