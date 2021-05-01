@@ -47,9 +47,11 @@ Route::group(['prefix'=>'user','middleware'=>['auth','user']],function(){
 
 Route::post('/forms/contact', [App\Http\Controllers\ContactControllor::class ,'contactSumit'])->name('home.contact_submit');
 Route::get('ThanksYou',[App\Http\Controllers\ThanksController::class,'contactThanks'])->name('contact.thanks_you');
-Route::get('cleanerPage/work',[App\Http\Controllers\CleanerPageController::class,'CleanWork'])->name('clneaer.clean_work');
+// Route::get('cleanerPage/work',[App\Http\Controllers\CleanerPageController::class,'CleanWork'])->name('clneaer.clean_work');
 
-Route::get('Booking',[App\Http\Controllers\UserController::class,'booking'])->name('user.booking');
+Route::get('yourBuy',[App\Http\Controllers\UserController::class,'yourbuy'])->name('user.yourbuy');
+
+Route::resource('products', App\Http\Controllers\ProductController::class);
 
 });
 
