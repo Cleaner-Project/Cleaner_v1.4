@@ -32,18 +32,11 @@
 
 <body>
 
-  {{-- @include('menu.navigation') --}}
   @include('user.usernavbar')
   @include('user.userhero-section')
-
-  <main id="main">
-
-    
-    @include('user.userservice')
+  @include('user.userservice')
     @include('user.usercontact')
-
-  </main><!-- End #main -->
-
+  
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">

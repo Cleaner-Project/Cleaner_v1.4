@@ -10,7 +10,9 @@ class UserController extends Controller
         return view('home');
    }
 
-   public function booking(){
-    return view('user.booking');
+    public function yourbuy(){
+    return view('user.yourbuy');
 }
+
+
 }

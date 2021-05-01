@@ -12,6 +12,7 @@
       <ul>
         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a class="nav-link scrollto " href="#">Notidication</a></li>
+        <li><a class="nav-link scrollto " href="{{route('products.index')}}">Your Buy</a></li>
         <li><a class="nav-link scrollto active" href="#service">service</a></li>
         <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         <li  class="dropdown"><a><span>Your </span></i></a>
