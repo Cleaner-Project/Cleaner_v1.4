@@ -18,6 +18,7 @@
         @include('cleaner/cleanerpage/c_topbar')
 
         @include('cleaner/cleanerpage/c_sidenav')
+        
 
         @include('cleaner/new-booking')   
         @include('admin/dashboard/_footer')

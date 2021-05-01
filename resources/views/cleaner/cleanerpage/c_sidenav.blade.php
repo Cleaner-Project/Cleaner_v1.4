@@ -28,7 +28,7 @@
         </a>
       </li>
       <li class="nav-item  active ">
-        <a href=""class="nav-link">
+        <a href="{{ route('clneaer.new_booking')}}"class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-cart-arrow-down"></span></span>
           <span class="sidebar-text">New Booking</span>
         </a>

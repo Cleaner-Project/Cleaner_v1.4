@@ -28,15 +28,15 @@
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="email" placeholder="Unit Price" name="unit_price" id="email">
+            <input type="email" placeholder="Email" name="unit_price" id="email">
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text"  placeholder="Unit Price" name="unit_price" id="unit_price" required>
+            <input type="text"  placeholder="Phone Number" name="unit_price" id="unit_price" required>
           </div>
           <div class="input-box">
             <span class="details">Date</span>
-            <input type="date" placeholder="Quantity In Stock" name="qty_in_stock" id="qty_in_stock" required>
+            <input type="date" placeholder="Date" name="qty_in_stock" id="qty_in_stock" required>
           </div>
           <div class="input-box">
             <span class="details">Address</span>

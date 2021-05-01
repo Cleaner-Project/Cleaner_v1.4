@@ -2,8 +2,9 @@
 
 @section('content')
     <div class="col-lg-8 col-md-10 mx-auto">
+      <a href="{{ route('home')}}">
         <h1>Service you want</h1>
-
+      </a>
         <table class="table table-border">
           <thead>
             <tr>
