@@ -2,8 +2,9 @@
 
 @section('content')
     <div class="col-lg-8 col-md-10 mx-auto">
+      <a href="{{ route('home')}}">
         <h1>Service you want</h1>
-
+      </a>
         <table class="table table-border">
           <thead>
             <tr>
@@ -12,6 +13,9 @@
               <th>Name</th>
               <th>Phone</th>
               <th>Date</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>Time</th>
               <th>
                 Activice
               </th>
@@ -23,18 +27,21 @@
                 <td>{{ $loop->index + 1 }}</td>
                 <td>{{ $product->category->name }}</td>
                 <td>{{ $product->name }}</td>
-                <td>{{ $product->unit_price }}</td>
-                <td>{{ $product->qty_in_stock }}</td>
+                <td>{{ $product->phone }}</td>
+                <td>{{ $product->date }}</td>
+                <td>{{ $product->email }}</td>
+                <td>{{ $product->address }}</td>
+                <td>{{ $product->time }}</td>
                 {{-- <td>{{ $product->user->name }}</td> --}}
                 <td>
                   <ul>
-                    {{-- @can('update', $product) --}}
-                      {{-- <li>
+                    {{-- @can('update', $product)  --}}
+                     <li>
                         <a class="btn btn-primary" href="{{ route('products.edit', $product->id) }}">Edit </a>
-                      </li> --}}
-                    {{-- @endcan --}}
+                      </li> 
+                 {{-- @endcan  --}}
 
-                    {{-- @can('delete', $product) --}}
+                {{-- @can('delete', $product) --}}
                       <li>
                         <form id="productDelete{{$product->id}}" method="POST" action="{{ route('products.destroy', $product->id) }}">
                           @csrf

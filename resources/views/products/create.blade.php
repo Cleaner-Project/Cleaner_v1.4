@@ -28,23 +28,23 @@
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="email" placeholder="Unit Price" name="unit_price" id="email">
+            <input type="email" placeholder="Email" name="email" id="email" required>
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text"  placeholder="Unit Price" name="unit_price" id="unit_price" required>
+            <input type="text"  placeholder="Phone Number" name="phone" id="phone" required>
           </div>
           <div class="input-box">
             <span class="details">Date</span>
-            <input type="date" placeholder="Quantity In Stock" name="qty_in_stock" id="qty_in_stock" required>
+            <input type="date" placeholder="Date" name="date" id="date" required>
           </div>
           <div class="input-box">
             <span class="details">Address</span>
-            <input type="text" placeholder="Enter your Address" value="{{old('name')}}">
+            <input type="text" placeholder="Enter your Address" name="address" value="{{old('name')}}" required>
           </div>
           <div class="input-box">
             <span class="details">Time</span>
-            <input type="time" placeholder="Enter your time">
+            <input type="time" name="time" placeholder="Enter your time" required>
           </div>
         </div>
         

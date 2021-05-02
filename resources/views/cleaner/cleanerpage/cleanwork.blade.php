@@ -1,5 +1,5 @@
 
-@extends('cleanerpage.cleaner1')
+@extends('cleaner.cleaner_layout')
 
 @section('content')
 
