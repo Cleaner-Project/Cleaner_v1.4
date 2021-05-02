@@ -22,28 +22,28 @@
       </div>
 
       <div class="form-group">
-        <label for="unit_price">Phone number</label>
+        <label for="phone">Phone number</label>
         <input type="text" value="{{ $product->phone }}" class="form-control" placeholder="phone" name="phone" id="phone" required >
       </div>
 
       <div class="form-group">
-        <label for="qty_in_stock">Email</label>
-        <input type="number" value="{{ $product->email }}" class="form-control" placeholder="email" name="email" id="email" required>
+        <label for="email">Email</label>
+        <input type="email" value="{{ $product->email }}" class="form-control" placeholder="email" name="email" id="email" required>
       </div>
 
       <div class="form-group">
-        <label for="qty_in_stock">Date</label>
-        <input type="number" value="{{ $product->date }}" class="form-control" placeholder="date" name="date" id="date" required>
+        <label for="date">Date</label>
+        <input type="date" value="{{ $product->date }}" class="form-control" placeholder="date" name="date" id="date" required>
       </div>
 
       <div class="form-group">
-        <label for="qty_in_stock">Address</label>
-        <input type="number" value="{{ $product->address }}" class="form-control" placeholder="address" name="address" id="address" required>
+        <label for="address">Address</label>
+        <input type="text" value="{{ $product->address }}" class="form-control" placeholder="address" name="address" id="address" required>
       </div>
 
       <div class="form-group">
-        <label for="qty_in_stock">Time</label>
-        <input type="number" value="{{ $product->time }}" class="form-control" placeholder="time" name="time" id="time" required>
+        <label for="time">Time</label>
+        <input type="time" value="{{ $product->time }}" class="form-control" placeholder="time" name="time" id="time" required>
       </div>
 
     
