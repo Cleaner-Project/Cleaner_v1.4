@@ -29,7 +29,7 @@
 				
 				<ul class="nav pcoded-inner-navbar ">
 					<li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{ route('products.index')}}">
               <span>
               <i class="feather icon-layout"></i>
               </span>

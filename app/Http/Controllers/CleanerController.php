@@ -15,7 +15,7 @@ class CleanerController extends Controller
       public function newbooking(){
        
           // return view('cleaner/cleaner_layout');
-            return view('cleaner/new-booking');
+            return view('cleaner/cleanerpage.cleanwork');
          
        }
 

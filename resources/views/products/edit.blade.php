@@ -22,14 +22,31 @@
       </div>
 
       <div class="form-group">
-        <label for="unit_price">Unit Price</label>
-        <input type="text" value="{{ $product->unit_price }}" class="form-control" placeholder="Unit Price" name="unit_price" id="unit_price" required >
+        <label for="unit_price">Phone number</label>
+        <input type="text" value="{{ $product->phone }}" class="form-control" placeholder="phone" name="phone" id="phone" required >
       </div>
 
       <div class="form-group">
-        <label for="qty_in_stock">Quantity in Stock</label>
-        <input type="number" value="{{ $product->qty_in_stock }}" class="form-control" placeholder="Quantity In Stock" name="qty_in_stock" id="qty_in_stock" required>
+        <label for="qty_in_stock">Email</label>
+        <input type="number" value="{{ $product->email }}" class="form-control" placeholder="email" name="email" id="email" required>
       </div>
+
+      <div class="form-group">
+        <label for="qty_in_stock">Date</label>
+        <input type="number" value="{{ $product->date }}" class="form-control" placeholder="date" name="date" id="date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="qty_in_stock">Address</label>
+        <input type="number" value="{{ $product->address }}" class="form-control" placeholder="address" name="address" id="address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="qty_in_stock">Time</label>
+        <input type="number" value="{{ $product->time }}" class="form-control" placeholder="time" name="time" id="time" required>
+      </div>
+
+    
 
       <button type="submit" class="btn btn-primary">Send</button>
     </form>
