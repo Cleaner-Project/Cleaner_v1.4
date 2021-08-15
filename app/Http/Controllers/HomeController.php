@@ -9,15 +9,11 @@ use App\Models\User;
 use Illuminate\Support\Facades\Redirect;
 class HomeController extends Controller
 {
-    // /
-    //  * Create a new controller instance.
-    //  *
-    //  * @return void
-    //  */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+   
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     // /
     //  * Show the application dashboard.
@@ -26,7 +22,7 @@ class HomeController extends Controller
     //  */
 
 
-    public function index(Request $request)
+    public function index()
     {
         // return view('p-welcome');
         return redirect()->route(auth()->user()->role);
@@ -39,5 +35,10 @@ class HomeController extends Controller
         //     return 'you are not admin';
         // }
         
+       
+    }
+    public function home(){
+       
+        return view('home-index');
     }
 };

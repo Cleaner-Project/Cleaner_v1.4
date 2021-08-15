@@ -4,12 +4,12 @@
     <div class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
       <div class="d-flex align-items-center">
         <div class="user-avatar lg-avatar me-4">
-          <img src="asset-admin/assets/img/team/profile-picture-3.jpg" class="card-img-top rounded-circle border-white"
+          <img src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" class="card-img-top rounded-circle border-white"
             alt="Bonnie Green">
         </div>
         <div class="d-block">
           <h2 class="h6">Hi, Jane</h2>
-          <a href="admin/pages/examples/sign-in" class="btn btn-secondary text-dark btn-xs"><span
+          <a href="{{asset('admin/pages/examples/sign-in')}}" class="btn btn-secondary text-dark btn-xs"><span
               class="me-2"><span class="fas fa-sign-out-alt"></span></span>Sign Out</a>
         </div>
       </div>
@@ -22,13 +22,13 @@
       <li class="nav-item">
         <a  class="nav-link d-flex align-items-center">
           <span class="sidebar-icon">
-            <img src="asset-admin/assets/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
+            <img src="{{asset('asset-admin/assets/img/brand/light.svg')}}" height="20" width="20" alt="Volt Logo">
           </span>
           <span class="mt-1 ms-1 sidebar-text">Admin Cleaner</span>
         </a>
       </li>
       <li class="nav-item  active ">
-        <a href="{{route('admin')}}"class="nav-link">
+        <a href="{{route('dashboard')}}"class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
           <span class="sidebar-text">Dashboard</span>
         </a>
@@ -64,7 +64,7 @@
           </span>
           <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
         </span>
-        <div class="multi-level collapse " role="list"
+        <!-- <div class="multi-level collapse " role="list"
           id="submenu-components" aria-expanded="false">
           <ul class="flex-column nav">
             <li class="nav-item">
@@ -99,13 +99,13 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </li>
       <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
       
       
       <li class="nav-item">
-        <a href="{{route('home')}}"
+        <a href="/"
           class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
           <span class="sidebar-icon"><span class="fas fa-home me-2"></span></span> <span>Home</span>
         </a>

@@ -1,51 +1,124 @@
+@extends('cleaner.cleaner_layout')
+@section('content')
 
-        
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
-                <div>
-                   
-                    <div class="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-0">
-                        <a class="dropdown-item fw-normal rounded-top" href="#"><span class="far fa-file-alt me-2"></span>Document</a>
-                        <a class="dropdown-item fw-normal" href="#"><span class="far fa-comment-dots me-2"></span>Message</a>
-                        <a class="dropdown-item fw-normal" href="#"><span class="fas fa-box-open me-2"></span>Product</a>
-                        <div role="separator" class="dropdown-divider my-0"></div>
-                        <a class="dropdown-item fw-normal rounded-bottom" href="#"><span class="fas fa-rocket text-danger me-2"></span>My Plan</a>
+ <div class ="row content">
+
+        <div class="col-11 col-md-4 col-sm-10 col-xs-10">
+            <div class="card py-3 py-md-3">
+                <div class="d-flex justify-content-between px-3 px-md-4">
+                    <div>
+                        <h6 class="">Wrok time: 10:00 - 11:00 AM</h6>
+                        <p class="bs-grey"> Monday, August 19 </p>
                     </div>
+                    <div class="align-self-baseline"> <img src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" height="55sspx" width="55px" alt="" class="rounded-circle"> </div>
                 </div>
-                <div>
-                    <button type="button" class="btn btn-dark me-2"><span class="fas fa-calendar-alt"></span></button>
-                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="fas fa-clipboard me-2"></span>Reports
-                        <span class="icon icon-small ms-1"><span class="fas fa-chevron-down"></span></span>
-                    </button>
-                    <div class="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-0">
-                        <a class="dropdown-item fw-normal rounded-top" href="#"><span class="fas fa-box-open"></span>Products</a>
-                        <a class="dropdown-item fw-normal" href="#"><span class="fas fa-store"></span>Customers</a>
-                        <a class="dropdown-item fw-normal" href="#"><span class="fas fa-cart-arrow-down"></span>Orders</a>
-                        <a class="dropdown-item fw-normal" href="#"><span class="fas fa-chart-pie"></span>Console</a>
-                        <div role="separator" class="dropdown-divider my-0"></div>
-                        <a class="dropdown-item fw-normal rounded-bottom" href="#"><span class="fas fa-rocket text-success"></span>All Reports</a>
-                    </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between px-3 px-md-4 div2">
+                <div class="">
+                     <h6 class="">Lindsey Johnson</h6>
+                     <div class="d-flex">
+                        <p class="grey mt-1">st 152 VangVong 7Makara PhnomPenh Buiiding e01</p> <span class="border ml-2 p-1 me-2 bs-green " id="sp1">1 hr</span>
+                     </div>
+                    
+                     <p class="small">Post: Today 8am </p>
                 </div>
+                <div class="align-self-center bs-red"> $4.00 </div>
+             </div>
+             <div class="d-flex justify-content-center"> <a href="#" class="d-flex blue font-weight-bold"> See more ></a> </div>
+            <hr>
+            
+            <button type="button" class="btn btn-dark me-2 "><span class="fas fa-clipboard me-2"></span> TAKE IT</button>
+            
             </div>
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
-            <div class="col-12 col-xl-4">
-                   
-                        <div class="col-12 mb-4">
-                            <div class="card shadow-sm text-center p-0">
-                              
-                                <div class="card-body pb-3">
-                                    <img src="asset-admin/assets/img/team/profile-picture-5.jpg" class="user-avatar rounded-circle mx-auto mt-n5 mb-4" alt="Neil Portrait">
-                                    <h4 class="h2 text-success ">2 hour</h4>
-                                    <h5 class="fw-normal">Corner Street 13 & 102, SangKat Wat Phnom, Khan Daun Penh, Phnom Penh </h5>
-                                    <h4 class="text-secondary fas fa-mobile-alt "> 096 283 231</h4>
-                                    <p class="h3 text-success mb-4">Get : $8</p>
-                                    <a class="btn btn-sm btn-success me-2" href="#"><span class="fas fa-hands-helping me-1"></span> Take it</a>
-                                    <a class="btn btn-sm btn-secondary" href="#">Send Message</a>
-                                </div>
-                             </div>
-                        </div>
-                     
-              </div>
-        
-              </div>   
-    </div>
+        </div>
+        <div class="col-11 col-md-4 col-sm-10 col-xs-10">
+            <div class="card py-3 py-md-3">
+                <div class="d-flex justify-content-between px-3 px-md-4">
+                    <div>
+                        <h6 class="">Wrok time: 10:00 - 11:00 AM</h6>
+                        <p class="bs-grey"> Monday, August 19 </p>
+                    </div>
+                    <div class="align-self-baseline"> <img src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" height="55sspx" width="55px" alt="" class="rounded-circle"> </div>
+                </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between px-3 px-md-4 div2">
+                <div class="">
+                     <h6 class="">Lindsey Johnson</h6>
+                     <div class="d-flex">
+                        <p class="grey mt-1">st 152 VangVong 7Makara PhnomPenh Buiiding e01</p> <span class="border ml-2 p-1 me-2 bs-green " id="sp1">1 hr</span>
+                     </div>
+                    
+                     <p class="small">Post: Today 8am </p>
+                </div>
+                <div class="align-self-center bs-red"> $4.00 </div>
+             </div>
+             <div class="d-flex justify-content-center"> <a href="#" class="d-flex blue font-weight-bold"> See more ></a> </div>
+            <hr>
+            
+            <button type="button" class="btn btn-dark me-2 "><span class="fas fa-clipboard me-2"></span> TAKE IT</button>
+            
+            </div>
+        </div>
+
+        <div class="col-11 col-md-4 col-sm-10 col-xs-10">
+            <div class="card py-3 py-md-3">
+                <div class="d-flex justify-content-between px-3 px-md-4">
+                    <div>
+                        <h6 class="">Wrok time: 10:00 - 11:00 AM</h6>
+                        <p class="bs-grey"> Monday, August 19 </p>
+                    </div>
+                    <div class="align-self-baseline"> <img src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" height="55sspx" width="55px" alt="" class="rounded-circle"> </div>
+                </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between px-3 px-md-4 div2">
+                <div class="">
+                     <h6 class="">Lindsey Johnson</h6>
+                     <div class="d-flex">
+                        <p class="grey mt-1">st 152 VangVong 7Makara PhnomPenh Buiiding e01</p> <span class="border ml-2 p-1 me-2 bs-green " id="sp1">1 hr</span>
+                     </div>
+                    
+                     <p class="small">Post: Today 8am </p>
+                </div>
+                <div class="align-self-center bs-red"> $4.00 </div>
+             </div>
+             <div class="d-flex justify-content-center"> <a href="#" class="d-flex blue font-weight-bold"> See more ></a> </div>
+            <hr>
+            
+            <button type="button" class="btn btn-dark me-2 "><span class="fas fa-clipboard me-2"></span> TAKE IT</button>
+            
+            </div>
+        </div>
+        <div class="col-11 col-md-4 col-sm-10 col-xs-10">
+            <div class="card py-3 py-md-3">
+                <div class="d-flex justify-content-between px-3 px-md-4">
+                    <div>
+                        <h6 class="">Wrok time: 10:00 - 11:00 AM</h6>
+                        <p class="bs-grey"> Monday, August 19 </p>
+                    </div>
+                    <div class="align-self-baseline"> <img src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" height="55sspx" width="55px" alt="" class="rounded-circle"> </div>
+                </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between px-3 px-md-4 div2">
+                <div class="">
+                     <h6 class="">Lindsey Johnson</h6>
+                     <div class="d-flex">
+                        <p class="grey mt-1">st 152 VangVong 7Makara PhnomPenh Buiiding e01</p> <span class="border ml-2 p-1 me-2 bs-green " id="sp1">1 hr</span>
+                     </div>
+                    
+                     <p class="small">Post: Today 8am </p>
+                </div>
+                <div class="align-self-center bs-red"> $4.00 </div>
+             </div>
+             <div class="d-flex justify-content-center"> <a href="#" class="d-flex blue font-weight-bold"> See more ></a> </div>
+            <hr>
+            
+            <button type="button" class="btn btn-dark me-2 "><span class="fas fa-clipboard me-2"></span> TAKE IT</button>
+            
+            </div>
+        </div>
+ 
+
+               
+</div>
+
+@endsection

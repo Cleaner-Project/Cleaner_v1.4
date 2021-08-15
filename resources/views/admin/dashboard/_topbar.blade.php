@@ -46,7 +46,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-2.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-2.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -65,7 +65,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-3.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 m-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -84,7 +84,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-4.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-4.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -103,7 +103,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-5.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-5.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -137,7 +137,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-1.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-1.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -156,7 +156,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-2.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-2.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -175,7 +175,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-3.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 m-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -194,7 +194,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-4.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-4.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -213,7 +213,7 @@
                   <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-5.jpg" class="user-avatar lg-avatar rounded-circle">
+                        <img alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-5.jpg')}}" class="user-avatar lg-avatar rounded-circle">
                       </div>
                       <div class="col ps-0 ms-2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -236,7 +236,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle pt-1 px-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <div class="media d-flex align-items-center">
-                <img class="user-avatar md-avatar rounded-circle" alt="Image placeholder" src="asset-admin/assets/img/team/profile-picture-3.jpg">
+                <img class="user-avatar md-avatar rounded-circle" alt="Image placeholder" src="{{asset('asset-admin/assets/img/team/profile-picture-3.jpg')}}">
                 <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
                   <span class="mb-0 font-small fw-bold">Bonnie Green</span>
                 </div>

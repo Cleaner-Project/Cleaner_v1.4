@@ -9,7 +9,6 @@
 
 <body>
 
-        <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
         
 @include('admin/dashboard/_nav')
 
@@ -18,7 +17,7 @@
         <main class="content">
         @include('admin/dashboard/_topbar')
 
-        @include('admin/pages/dash_home')
+       @yield('content')
            
         @include('admin/dashboard/_footer')
         </main>

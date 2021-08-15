@@ -3,26 +3,22 @@
 
 <head> 
 <title>Cleaner-Account</title>
- @include('admin/dashboard/_head')
+ @include('cleaner/cleanerpage/c_head')
+
 </head>
 
 <body>
 
-        <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
-        
-@include('admin/dashboard/_nav')
-
+@include('cleaner/cleanerpage/c_nav')
 
     
-        <main class="content">
-        @include('cleaner/cleanerpage/c_topbar')
+<main class="content">
+ @include('cleaner/cleanerpage/c_topbar')
 
-        @include('cleaner/cleanerpage/c_sidenav')
-
-        @include('cleaner/new-booking')   
-        @include('admin/dashboard/_footer')
-        </main>
-@include('admin/dashboard/_scripts')
+       @yield('content')   
+      
+ </main>
+ @include('cleaner/cleanerpage/c_scripts')
     
 </body>
 

@@ -15,20 +15,24 @@ class AdminController extends Controller
        return view('admin/dashboard_layout');
       
     }
+    public function dash()
+    {
+      return View('admin/1_dash_home');
+    }
 
     public function listuser()
     {
-      return View('admin/pages/list-user');
+      return View('admin/3_list-user');
     }
 
     public function booking()
     {
-      return View('admin/pages/admin-booking');
+      return View('admin/2_admin-booking');
     }
 
     public function create_cleaner()
     {
-      return View('admin/pages/create-cleaner');
+      return View('admin/4_create-cleaner');
     }
 
 

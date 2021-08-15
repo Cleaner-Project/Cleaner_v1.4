@@ -1,3 +1,5 @@
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Primary Meta Tags -->
 
@@ -41,6 +43,10 @@
 <link type="text/css" href="{{asset('asset-admin/vendor/notyf/notyf.min.css')}}" rel="stylesheet">
 
 <!-- Volt CSS -->
-<link type="text/css" href="{{asset('asset-admin/css/volt.css')}}" rel="stylesheet">
+<link type="text/css" href="{{asset('asset-cleaner/css/volt.css')}}" rel="stylesheet">
 
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
+
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">

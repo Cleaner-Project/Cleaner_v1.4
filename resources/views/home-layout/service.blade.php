@@ -1,7 +1,10 @@
  <!-- ======= service Section ======= -->
  <section id="service" class="pricing">
-    <div class="container">
+    
+ 
+  <div class="container">
 
+     
       <div class="section-title" data-aos="fade-up">
         <h2>Booking</h2>
         <p>Check our Service</p>
@@ -22,8 +25,10 @@
               <li>----------------</li>
             </ul>
             <div class="btn-wrap">
-              <a href="{{ route('login') }}" class="btn-buy">Buy Now</a>
+              <a  type="button" class="btn-buy" data-toggle="modal" data-target="#exampleModal">Buy Now</a>
+             
             </div>
+            
           </div>
         </div>
 
@@ -99,5 +104,8 @@
         </div>
       </div>
 
+  
     </div>
+    
+   
   </section><!-- End service Section -->

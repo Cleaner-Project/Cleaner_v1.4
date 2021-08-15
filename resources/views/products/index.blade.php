@@ -3,7 +3,7 @@
 @section('content')
     <div class="col-lg-8 col-md-10 mx-auto">
         <h1>Service you want</h1>
-
+        
         <table class="table table-border">
           <thead>
             <tr>

@@ -35,7 +35,7 @@
   @include('user.usernavbar')
   @include('user.userhero-section')
   @include('user.userservice')
-    @include('user.usercontact')
+  @include('user.usercontact')
   
   <!-- ======= Footer ======= -->
   <footer id="footer">

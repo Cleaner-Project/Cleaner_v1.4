@@ -20,7 +20,8 @@
 
           @if(Auth::user())
           <li class="nav-item">
-            <a class="nav-link" href="{{ route ()== user('login')}}">Your</a>
+            <a class="nav-link" href="{{ route (redirect()->route(auth()->user()->role))== user('login')}}">Your</a>
+            
           </li>
 
           @else

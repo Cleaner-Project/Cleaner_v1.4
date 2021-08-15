@@ -24,7 +24,7 @@
 <script src="{{asset('asset-admin/vendor/sweetalert2/dist/sweetalert2.all.min.js')}}"></script>
 
 <!-- Moment JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js')}}"></script>
 
 <!-- Vanilla JS Datepicker -->
 <script src="{{asset('asset-admin/vendor/vanillajs-datepicker/dist/js/datepicker.min.js')}}"></script>
@@ -36,7 +36,7 @@
 <script src="{{asset('asset-admin/vendor/simplebar/dist/simplebar.min.js')}}"></script>
 
 <!-- Github buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js')}}"></script>
 
 <!-- Volt JS -->
 <script src="{{asset('asset-admin/assets/js/volt.js')}}"></script>
